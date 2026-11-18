@@ -1,0 +1,12 @@
+{
+      "firstName": "Sam",
+      "lastName": "Tonde",
+      "email": "samtonde@test.com",
+      "designation": "Test Lead",
+      "salary": 120000,
+      "city": "Bangalore",
+      "courses": [
+        "C",
+        "C++"
+      ]
+    }

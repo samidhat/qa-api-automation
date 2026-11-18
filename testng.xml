@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Demo">
+
+    <listeners>
+        <listener class-name="api.listeners.ExtentReportListener"/>
+    </listeners>
+
+    <test name="API Tests">
+
+        <classes>
+            <class name="api.test.UserTests"/>
+            <!-- <class name="testCases.StoreTests"/>
+            <class name="testCases.PetTests"/> -->
+        </classes>
+
+    </test>
+
+</suite>
